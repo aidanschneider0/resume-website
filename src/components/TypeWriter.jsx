@@ -1,6 +1,8 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 
+// type writer effect on the landing page, exported as used in intro.jsx
+
 const TypeWriter = () => {
   return (
     <Typewriter 

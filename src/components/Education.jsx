@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import victoria from '../assets/uofvic.png'
 
+// design for the education page on the website
+
 const Container = styled.div`
     display: flex;
     flex-direction: column;

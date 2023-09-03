@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// design for the contact page on the website
+
 const Container = styled.div`
     height: 100vh;
     width: 100vw;

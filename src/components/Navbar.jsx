@@ -4,6 +4,8 @@ import linkedIn from '../assets/linkedIn.png';
 import github from '../assets/github.png';
 import email from '../assets/emailIcon.png'
 
+// design for the navigation bar on the website, includes icons, hover effects, and sticky effect when scrolling
+
 const Container = styled.div`
   height: 75px;
   position: sticky;

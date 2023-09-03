@@ -3,6 +3,8 @@ import { styled } from 'styled-components'
 import AnimatedShapes from './AnimatedShapes';
 import TypeWriter from './TypeWriter';
 
+// design for the landing page on the website
+
 const Container = styled.div`
     height: calc(100vh - 65px);
     display: flex;

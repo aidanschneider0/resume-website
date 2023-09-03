@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+// created each shape component separately, and then gave them a keyframes path. exported and used in intro.jsx
+
 const Square = styled.div`
     width: 60px;
     height: 60px;

@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import bci from "../assets/bci.svg"
 import kpmg from "../assets/kpmg.png"
 
+// design for the work experience page on the website
+
 const Container = styled.div`
     height: 100vh;
     display: flex;

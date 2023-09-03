@@ -7,11 +7,14 @@ import ExtraCurricular from "./components/ExtraCurricular";
 import Contact from "./components/Contact";
 
 // components allow for css styling in a <> tag
+// app.jsx takes into account all the other components written
 
 const Container = styled.div`     
     display: flex;
     flex-direction: column;
 `;
+
+// design for the layered effect seen on the landing page 
 
 const IntroShape = styled.div`
     width: 100%;
@@ -23,6 +26,8 @@ const IntroShape = styled.div`
     clip-path: polygon(67% 0%, 100% 0%, 100% 100%, 55% 100%);
     background-color: #907968;
 `;
+
+// design for the layered effect seen on education page on the website
 
 const LayerOne = styled.div`
     width: 100%;
