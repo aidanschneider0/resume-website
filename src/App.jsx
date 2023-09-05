@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
 import ExtraCurricular from "./components/ExtraCurricular";
 import Contact from "./components/Contact";
+import ScrollButton from "./components/ScrollButton";
 
 // components allow for css styling in a <> tag
 // app.jsx takes into account all the other components written
@@ -12,6 +13,7 @@ import Contact from "./components/Contact";
 const Container = styled.div`     
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 `;
 
 // design for the layered effect seen on the landing page 
@@ -33,7 +35,7 @@ const LayerOne = styled.div`
     width: 100%;
     height: 100%;
     position: absolute;
-    top: calc(100vh - 15px);
+    top: 100vh;
     left: 0vw;
     z-index: -1;
     clip-path: polygon(90% 0%, 100% 0%, 100% 100%, 95% 100%);
@@ -44,7 +46,7 @@ const LayerTwo = styled.div`
     width: 100%;
     height: 100%;
     position: absolute;
-    top: calc(100vh - 15px);
+    top: 100vh;
     left: 0vw;
     z-index: -2;
     clip-path: polygon(85% 0%, 100% 0%, 100% 100%, 90% 100%);;
@@ -55,7 +57,7 @@ const LayerThree = styled.div`
     width: 100%;
     height: 100%;
     position: absolute;
-    top: calc(100vh - 15px);
+    top: 100vh;
     left: 0vw;
     z-index: -3;
     clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 87% 100%);
@@ -66,7 +68,7 @@ const LayerFour = styled.div`
     width: 100%;
     height: 100%;
     position: absolute;
-    top: calc(100vh - 15px);
+    top: 100vh;
     left: 0vw;
     z-index: -4;
     clip-path: polygon(75% 0%, 100% 0%, 100% 100%, 80% 100%);
@@ -76,6 +78,7 @@ const LayerFour = styled.div`
 const App = () => {
     return <Container> 
             <Navbar /> 
+            <ScrollButton />
             <IntroShape id='Home'/> 
             <Intro /> 
             <LayerOne /> 

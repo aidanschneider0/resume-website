@@ -74,7 +74,7 @@ const Home = () => {
         <Bot>           
             <Left> 
                 <Block>
-                    <LineItem> Bachelor of Science in Mathematics and Statistics, <strong> GPA: 3.7 / 4.0 </strong>  - 
+                    <LineItem> Bachelor of Science in Mathematics and Statistics, <strong> GPA: 3.8 / 4.0 </strong>  - 
                         Relevant coursework: Linear Algebra, Data Structures and Algorithms, Probability Theory, Introductory Statistics I and II, and Vector Calculus </LineItem>
                     <Paragraph> I am a third year undergraduate student attending the University of Victoria, studying mathematics and statistics. 
                         Often I'm asked what I would like to do with my degree, and over the years my answer has morphed into a simple: "What can't I do with my degree?". 

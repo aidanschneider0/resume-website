@@ -50,7 +50,8 @@ const Contact = () => {
       <Bot> 
         <Centre> 
             <Paragraph> You can find the source code for this website here: <a href='https://github.com/aidanschneider0'> https://github.com/aidanschneider0. </a> Feel free to use this as a foundation for your own resume website. </Paragraph>
-                        I'm always looking to connect with other individuals in the industries I've shown interest in, no matter the experience level. I enjoy talking about books written by Michael Lewis, the Toronto Blue Jays (or baseball in general), and much more!
+                        I'm always looking to connect with other individuals in the industries I've shown interest in, no matter the experience level. 
+                        I enjoy talking about books (with my favourite author currently being Michael Lewis), the Toronto Blue Jays or baseball in general, and much more!
         </Centre>
       </Bot>
       </Container>

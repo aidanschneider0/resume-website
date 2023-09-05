@@ -61,7 +61,7 @@ const Navbar = () => { //this is what this code file exports, styled with compon
               </Menu>
           </Left>
           <Right>
-            <a href="https://www.linkedin.com/in/aidan-schneider/"> <img src={linkedIn} width={50} height={50} style={{marginLeft: 20}} /> </a>   
+            <a href= "https://www.linkedin.com/in/aidan-schneider0"> <img src={linkedIn} width={50} height={50} style={{marginLeft: 20}} /> </a>   
             <a href="https://github.com/aidanschneider0"> <img src={github} width={50} height={50} style={{marginLeft: 20}} /> </a>
             <a href="mailto:aidanschneider@telus.net"> <img src={email} width={50} height={50} style={{marginLeft: 20}} /> </a> 
           </Right>             

@@ -14,7 +14,7 @@ const Square = styled.div`
 
 @keyframes square {
     0% {top: 0vh; left: 40vw;}
-    50% {top: calc(100vh - 70px); Left: calc(55vw - 60px);}
+    50% {top: calc(100vh - 60px); Left: calc(55vw - 60px);}
     75% {top: 50vh; left: 0vw;}
     100% {top: 0vh; left: 40vw;}
 }
@@ -32,7 +32,7 @@ const Rect = styled.div`
 @keyframes rect {
     0% {top: 40vh; left: 0px;}
     33% {top: 0vh; left: calc(67vw - 60px);}
-    66% {top: calc(100vh - 110px); left: 27vw}
+    66% {top: calc(100vh - 100px); left: 27vw}
     100% {top: 0vh; left: 0vw;}
 }
 `;
@@ -48,9 +48,9 @@ const Circle = styled.div`
     animation: circle 20s linear alternate infinite;
 
     @keyframes circle {
-        0% {top: calc(100vh - 90px); left: 0vw;}
+        0% {top: calc(100vh - 80px); left: 0vw;}
         50% {top: 0vh; left: 25vw;}
-        100% {top: calc(100vh - 90px); Left: calc(55vw - 80px);}
+        100% {top: calc(100vh - 80px); Left: calc(55vw - 80px);}
 }
 `;
 
